@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+        body{
+            background-color: rgb(29, 28, 28);
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        .right{
+            display: grid;
+            justify-content: right;
+            margin-inline: 4px;
+        }
+       
+        img{
+            border-radius: 20px;
+            transition: transform 0.3s ease;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+        nav{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);    
+        }    
+    </style>    
+    <link rel="shortcut icon" href="imagens/favicon-transparente.png" type="image/x-icon">
+    <title>Meus vídeos de Fingerstyle favoritos</title>
+</head>
+<body>
+    <header>
+        <h1>Vídeos legais para assistir</h1>
+    </header>
+    <nav>
+            <div class="right"><a href="marcoskaiser.html" rel="next" ><img src="imagens/marcos-kaiser.png" alt="Marcos Kaiser dbz"></a>
+            </div>
+            <div><a href="sunghajung.html" rel="next"><img src="imagens/sunghajung.png" alt="Sungha Jung"></a>
+            </div>
+            <div class="right"><a href="yukimatsui.html" rel="next"><img src="imagens/yukimatsui.png" alt="YukiMatsui"></a>
+            </div>
+            <div><a href="kennethacoustic.html" rel="next"><img src="imagens/kennethfinger.png" alt="kenneth acoustic"></a>
+            </div>
+    </nav>
+</body>
+</html>

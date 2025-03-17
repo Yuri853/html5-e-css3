@@ -1,0 +1,38 @@
+@charset "UTF-08";
+
+/* Em HTML se chama id, em CSS se chama # (pode ser usado um nome só por id)
+   Em HTML se chama class, em CSS se chama .(por ser usado em várias tags com o mesmo nome)
+*/
+
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(4, 109, 0);
+}
+h2{
+    color:rgb(73, 109, 71);
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+.basico{
+    color: #3c805e;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: #807f3c;
+}
+
+.avançado{
+    color: #803c3c;
+}
+
+.destaque{
+    background-color: #c5c56070;
+}
